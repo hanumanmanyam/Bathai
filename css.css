@@ -1,0 +1,148 @@
+
+.box1{
+    background-color: #EAE509;
+    height: 15%;
+    width: 50%;
+    border-radius: 2rem;
+
+
+}
+#med{
+    height: 70%;
+    width: 70%;
+}
+.nav-item :hover{
+    color: white;
+    transition: color 3s;
+}
+.box1 p:hover{
+    color: red;
+    transition: color 3s;
+}
+.box1 p{
+    margin-top: 1%;
+    text-align: center;
+}
+#ph{
+    height: 75%;
+    width:75%;
+}
+.heading{
+    text-align: center;
+    padding: 3%;
+}
+h5{
+    color: red;
+}
+.cat{
+    
+    display: inline-block;
+    border-radius: 5%;
+    height: 25%;
+    width: 25%;
+    /* background-color: #EAE509; */
+}
+.cat img{
+    height: 100%;
+    width: 100%;
+}
+h3{
+    color: white;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* .one{
+    background-image:url("fruits.jpg");
+}
+.two{
+    background-image: url("vegi.jpg");
+}
+.three{
+    background-image: url("milk.jpg");
+} */
+.cat:hover{
+    transform: scale(90%);
+    transition: 1s;
+    
+}
+/* .clic{
+    margin: auto;
+    
+} */
+
+/* .info{
+    height: 500px;
+    width: 1200px;
+    border-radius: 2%;
+    background-color: greenyellow;
+} */
+.in{
+    margin: 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    /* background-color: greenyellow; */
+}
+
+
+form .in{
+    height: auto;
+    width: 80%;
+
+}
+textarea{
+    height: auto;
+    width: 80%;
+}
+#block{
+    height: auto;
+    width: 50%;
+    
+}
+
+.all{
+    background-color: aliceblue;
+    border-radius: 5%;
+    display: inline-block;
+    height: 10%;
+    width: 10%;
+}
+.all img{
+    height: 50%;
+    width:50%;
+}
+.all :hover{
+    transform: scale(110%);
+    transition: 1s;
+}
+.whole{
+    width: 100%;
+    height: auto;
+    background-color: #7DCE13;;
+}
+.whole div{
+    display: inline-block;
+    height: auto;
+    width: 50%;
+}
+.ideal p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+@media screen  and (max-width: 800px){
+    #block{
+        width: 100%;
+    }
+    .all{
+        height: 15%;
+        width: 15%;
+    }
+    .cat{
+        height: 30%;
+        width: 30%;
+    }
+    
+}
+
+

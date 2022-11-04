@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4a3f8e2be3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4a3f8e2be3.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+        setInterval(function(){
+        $('#text').fadeOut(500);
+        $('#text').fadeIn(500);
+        },1000);
+        });
+    </script> 
+    <!-- <script src="script.js"></script> -->
+    
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg" style="background-color: #7DCE13;">
+        
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="harvest-removebg-preview.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Bathai
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 25%;">
+              <li class="nav-item" style="padding-left: 10px; padding-right: 10px;">
+                <a class="nav-link" href="#">
+                    Home
+                </a>
+              </li>
+              <li class="nav-item" style="padding-left: 15px; padding-right: 15px;">
+                <a class="nav-link" href="#caty">Catogeries</a>
+              </li>
+              <li class="nav-item" style="padding-left: 15px; padding-right: 15px;">
+                <a class="nav-link" href="#contact">Feedback</a>
+              </li>
+              <li class="nav-item" style="padding-left: 15px; padding-right: 15px;">
+                <a class="nav-link" href="#">Login/Register</a>
+              </li>
+              <li class="nav-item" style="padding-left: 15px; padding-right: 15px;">
+                <a class="nav-link" href="#contactinfo">ContactInfo</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <center>
+        <br>
+        <div class="box1">
+             <h5 id="text">Offer Ends : <span id="tim">10:00</span></h5> 
+            
+            </div>
+
+      </center>
+      <center>
+        <div class="slide">
+          <img   src="slide1.jpg" id="ph" onclick="slideShow()"  alt="">
+        </div>
+      </center>
+      <section id="caty">
+        <br>
+        <h2 class="heading">Categories</h2>
+        
+        <center>
+          <div class="cat one">
+            <a href="fruitshtml.html"><img src="fruits.webp" alt=""></a>
+          </div>
+          <div class="cat two">
+            <a href=""><img src="vegi.jpg" alt=""></a>
+          </div>
+          <div class="cat three">
+            <a href=""><img  src="milk.png" alt=""></a>
+          </div>
+          <div class="cat Four">
+            <a href=""><img id="med" src="medi.jpg" alt=""></a>
+          </div>
+          <div class="cat Five">
+            <a href=""><img id="med" src="baby.jpg" alt=""></a>
+          </div>
+        </center>
+      </section>
+    <section id="contact">
+      <br>
+      <h2 class="heading">Bathai Partners</h2>
+      <br>
+      
+      <center>
+        <div class="all">
+          <a href="https://www.bigbasket.com" target="_blank"><img src="big.jpg" alt=""></a>
+        </div>
+        <div class="all">
+          <a href="https://www.flipkart.com" target="_blank"><img src="flip.png" alt="" ></a>
+        </div>
+        <div class="all">
+          <a href="https://www.amazon.com/" target="_blank"><img src="ama.jpeg" alt="" ></a>
+        </div>
+        <div class="all">
+          <a href="https://www.jiomart.com/"target="_blank"><img src="jio.jpg" alt="" ></a>
+        </div>
+        <div id="block">
+          <br>
+          <h2 class="heading">Feedback</h2>
+          <br>
+          <form action="">
+            
+            <input type="text" id="name" placeholder="First Name" class="in"><br>
+            <input type="text" id="last" placeholder="LastName" class="in"><br>
+            <input type="text" id="phone" placeholder="Mobile Number" class="in"><br>
+            <input type="email" id="email" placeholder="Email Id" class="in"><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Type Your Message here...."></textarea> <br>
+            <input type="submit" id="btn">
+          </form>
+        </div>
+      </center>
+    </section>
+    <section id="contactinfo">
+      <h2 class="heading">Contact Info</h2>
+      <center>
+        <div class="whole">
+          <div class="social">
+            <h3>Scoial Media</h3>
+            <a href="#" ><i style="font-size: 50px; padding: 3%;" class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i style="font-size: 50px; padding: 5%;" class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i style="font-size: 50px; padding: 5%;" class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i style="font-size: 50px; padding: 5%;" class="fa-brands fa-twitter"></i></a>
+          </div>
+          <div class="ideal">
+            <h3>Address</h3>
+            <p>Bathaii Office</p>
+            <p>PullagVuntadhi  street</p>
+            <p>lethaa Bathaii dist</p>
+            <p>Andhra Pradesh</p>
+            <p>534301</p>
+            <p>Mobile1:1234567890 &nbsp;&nbsp;&nbsp; Mobile1:1234567890</p>
+
+          </div>
+
+        </div>
+
+      </center>
+
+    </section>
+      
+
+      
+      
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
